@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="speak.hiepdd.tro_ly_ao_android.Activity.ThongTinUngDung">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_thongTinUngDung"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/normal"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:background="@drawable/ic_virtual_assistant"
+            android:layout_marginTop="100dp"
+            android:minWidth="96dp"
+            android:minHeight="96dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textSize="21dp"
+            android:textColor="@color/normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_full"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:textColor="@color/normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phienban"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:drawablePadding="5dp"
+            android:padding="5dp"
+            android:layout_marginTop="20dp"
+            android:drawableTop="@drawable/ic_mail"
+            android:textColor="@color/normal"
+            android:background="@drawable/button_phanhoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phanhoi"
+            android:id="@+id/button_thongTinUngDung"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <TextView
+        android:textColor="@color/normal"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/author"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

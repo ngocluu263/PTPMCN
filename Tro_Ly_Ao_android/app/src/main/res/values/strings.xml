@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Trợ Lý Ảo</string>
+    <string name="facebook_app_id">1032781066835513</string>
+    <string name="speech_prompt">Tôi có thể giúp gì cho bạn &#8230;</string>
+    <string name="tencuaban">Nhập tên của bạn</string>
+    <string name="speech_not_supported">Xin lỗi ! Điện thoại của bạn không hỗ trợ đầu vào giọng nói</string>
+    <string name="caidat">Cài đặt chung</string>
+    <string name="chiase">Chia sẻ cho bạn bè</string>
+    <string name="danhgia">Đánh giá ứng dụng</string>
+    <string name="thongtin">Thông tin ứng dụng</string>
+    <string name="name_full">Virtual Assistant for Vietnamese</string>
+    <string name="phienban">Phiên bản 1.0.0</string>
+    <string name="phanhoi">Gửi phản hồi</string>
+    <string name="author">Phát triển bởi Đồng Đức Hiệp\n
+    khoa CNTT, trường đại học Bách Khoa Hà Nội</string>
+</resources>

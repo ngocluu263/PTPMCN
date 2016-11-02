@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Activity.MainActivity">
+
+
+    <include layout="@layout/content_main" />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab_menu"
+        android:layout_margin="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        app:fab_addButtonColorNormal="#ff5900"
+        app:fab_addButtonColorPressed="#ff8442"
+        app:fab_addButtonPlusIconColor="#ffffff"
+        app:fab_labelStyle="@style/menu_labels_style"
+        >
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fab_menu_thongtin"
+            app:fab_icon="@drawable/ic_info_white"
+            app:fab_colorNormal="#394aff"
+            app:fab_colorPressed="#4e91ff"
+            app:fab_size="mini"
+            app:fab_title="@string/thongtin"
+            />
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fab_menu_chiase"
+            app:fab_icon="@drawable/ic_share_white"
+            app:fab_colorNormal="#ff0004"
+            app:fab_colorPressed="#ff8890"
+            app:fab_size="mini"
+            app:fab_title="@string/chiase"
+            />
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fab_menu_danhgia"
+            app:fab_icon="@android:drawable/btn_star_big_on"
+            app:fab_colorNormal="#ffe100"
+            app:fab_colorPressed="#fff953"
+            app:fab_addButtonPlusIconColor="#ff2a2a"
+            app:fab_size="mini"
+            app:fab_title="@string/danhgia"
+            />
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fab_menu_caidat"
+            app:fab_icon="@drawable/ic_settings_white"
+            app:fab_colorNormal="#1ecc2d"
+            app:fab_colorPressed="#4bdf58"
+            app:fab_size="mini"
+            app:fab_title="@string/caidat"
+            />
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</RelativeLayout>

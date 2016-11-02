@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="speak.hiepdd.tro_ly_ao_android.Activity.CaiDatChung">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_caiDatChung"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/normal" />
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal" >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal">
+            <android.support.v7.widget.SwitchCompat
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/icon_name"
+                android:padding="10dp"
+                android:textColor="@color/normal"
+                android:textSize="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="TÊN CỦA BẠN : User\n\nTên dùng để hiển thị giao tiếp với trợ lý ảo"
+                android:id="@+id/switchcompat_tenCuaBan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tintcheckbox"
+                />
+
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/normal"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/textView1"
+                android:layout_gravity="center_horizontal" />
+            <android.support.v7.widget.SwitchCompat
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/icon_sound"
+                android:padding="10dp"
+                android:textColor="@color/normal"
+                android:textSize="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="TẮT ÂM BÁO\n\nTắt âm báo mỗi lúc ứng dụng bắt đầu lắng nghe"
+                android:id="@+id/switchcompat_tatAmBao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tintcheckbox"
+                />
+
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/normal"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/textView4"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
